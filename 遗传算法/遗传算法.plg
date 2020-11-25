@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 遗传算法 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\User\AppData\Local\Temp\RSP6C9.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/遗传算法.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\复试前最后一次coding\遗传算法\遗传算法.cpp"
+]
+Creating command line "cl.exe @C:\Users\User\AppData\Local\Temp\RSP6C9.tmp" 
+Creating temporary file "C:\Users\User\AppData\Local\Temp\RSP6CA.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/遗传算法.pdb" /debug /machine:I386 /out:"Debug/遗传算法.exe" /pdbtype:sept 
+".\Debug\遗传算法.obj"
+]
+Creating command line "link.exe @C:\Users\User\AppData\Local\Temp\RSP6CA.tmp"
+<h3>Output Window</h3>
+Compiling...
+遗传算法.cpp
+E:\复试前最后一次coding\遗传算法\遗传算法.cpp(25) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Linking...
+
+
+
+<h3>Results</h3>
+遗传算法.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
